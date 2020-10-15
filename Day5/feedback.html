@@ -1,0 +1,23 @@
+<html>
+<body>
+<form action = "q2_send_mail.php" method="post" name="myfeedbackform" action="form-to-email.php">
+
+Enter Name:	<input type="text" name="name"><br>
+
+Enter Email Address :	<input type="email" name="toemail"><br>
+
+Enter Your Feedback :	<textarea name="message"></textarea>
+<p>How would you like yo rate us:-</p>
+  <input type="radio" id="Excellent" name="rate" value="Excellent">
+  <label for="Excellent">Excellent</label><br>
+  <input type="radio" id="Good" name="rate" value="Good">
+  <label for="Good">Good</label><br>
+  <input type="radio" id="Satisfy" name="rate" value="Satisfy">
+  <label for="Satisfy">Satisfy</label><br>  
+  <input type="radio" id="Fair" name="rate" value="Fair">
+  <label for="Fair">Fair</label>
+  <br>  
+<input type="submit" name = "submit" value="Send Feedback">
+</form>
+</body>
+</html>
